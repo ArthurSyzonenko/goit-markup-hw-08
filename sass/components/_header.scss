@@ -1,0 +1,17 @@
+.header {
+  height: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  border-bottom: 1px solid #ececec;
+
+  &-container {
+    display: flex;
+    align-items: center;
+  }
+
+  @include tab {
+    padding: 0;
+    height: auto;
+  }
+}

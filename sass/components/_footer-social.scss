@@ -1,0 +1,44 @@
+.join-container {
+  @include tab {
+    padding-top: 65px;
+  }
+
+  @include desk {
+    padding-top: 72px;
+    margin-left: 70px;
+  }
+}
+
+.join {
+  @include text(14px, 900, 16px, 0.03em);
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-social__item + .footer-social__item {
+  margin-left: 10px;
+}
+
+.footer-social__link {
+  transition: var(--animation);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--hover-background-color);
+  }
+}
