@@ -43,7 +43,7 @@
   margin-bottom: 10px;
   text-align: center;
   text-transform: uppercase;
-  @include text(16px, 700, 16px, 3%);
+  @include text(14px, 700, 16px, 3%);
 
   @include tab {
     text-align-last: left;
